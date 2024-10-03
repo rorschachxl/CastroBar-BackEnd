@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "ActualizarUSuario",
+    "RelativePath": "api/Usuario/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "apellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefono",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "RegistrarUsuario",
+    "RelativePath": "api/Usuario/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CASTROBAR_API.Dtos.UsuarioRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CASTROBAR_API.WeatherForecast, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

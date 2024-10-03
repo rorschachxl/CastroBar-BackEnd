@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\utilities\\bycriptutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\bycriptutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
+              "RelativeToolTip": "CASTROBAR_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T00:14:49.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T00:03:02.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T00:02:33.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ByCriptUtility.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\ByCriptUtility.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\ByCriptUtility.cs",
+              "ToolTip": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\ByCriptUtility.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Utilities\\ByCriptUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T23:56:48.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T23:55:57.895Z",
+              "EditorCaption": ""
             }
           ]
         }

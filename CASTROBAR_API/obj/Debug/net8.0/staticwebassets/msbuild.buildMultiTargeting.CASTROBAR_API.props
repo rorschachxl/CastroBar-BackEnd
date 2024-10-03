@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CASTROBAR_API.props" />
+</Project>
