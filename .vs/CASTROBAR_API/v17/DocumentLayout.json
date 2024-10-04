@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\models\\auditorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\auditorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\genni\\documentos\\desarrollo\\universidad\\castrobar_api\\castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JsonFile.cs",
-              "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:28:43.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:56:00.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
@@ -101,33 +75,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "DbAadd54CastrobarContext.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
               "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
               "RelativeToolTip": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
-              "ViewState": "AgIAAKMBAAAAAAAAAAAiwK8BAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAywDIAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T23:12:11.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Program.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Program.cs",
               "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Program.cs",
               "RelativeToolTip": "CASTROBAR_API\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T23:03:56.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\UsuarioService.cs",
@@ -135,12 +109,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Services\\UsuarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:56:24.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T23:56:24.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TokenAndEncript.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
@@ -148,12 +121,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAlwC8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:56:43.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T23:56:43.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Auditorium.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Models\\Auditorium.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Auditorium.cs",
@@ -161,12 +133,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Models\\Auditorium.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:56:04.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T23:56:04.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UsuariosRepository.cs",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
@@ -174,21 +145,44 @@
               "RelativeToolTip": "CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAADwvxoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:56:10.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T23:56:10.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\appsettings.json",
               "RelativeDocumentMoniker": "CASTROBAR_API\\appsettings.json",
               "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\appsettings.json",
               "RelativeToolTip": "CASTROBAR_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-03T23:01:10.005Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T23:56:00.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonFile.cs",
+              "DocumentMoniker": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "ToolTip": "C:\\Users\\Genni\\Documentos\\Desarrollo\\Universidad\\CASTROBAR_API\\CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:28:43.095Z"
             }
           ]
         }

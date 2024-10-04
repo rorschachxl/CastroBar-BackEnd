@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<DbAadd54CastrobarContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
+builder.Services.AddDbContext<DbAadd54CastrobarContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddTransient<UsuarioService>();
 builder.Services.AddTransient<UsuariosRepository>();
 builder.Services.AddTransient<TokenAndEncript>();
