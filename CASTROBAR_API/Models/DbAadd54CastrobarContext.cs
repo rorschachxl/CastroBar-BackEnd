@@ -198,7 +198,7 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("PRODUCTO");
 
             entity.Property(e => e.IdProducto)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("idProducto");
             entity.Property(e => e.Cantidad).HasColumnName("cantidad");
             entity.Property(e => e.CategoriaIdCategoria).HasColumnName("CATEGORIA_idCategoria");

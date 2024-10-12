@@ -2,6 +2,7 @@
 using CASTROBAR_API.Repositories;
 using CASTROBAR_API.Services;
 using Microsoft.AspNetCore.Mvc;
+using CASTROBAR_API.Dtos;
 
 namespace CASTROBAR_API.Controllers
 {
@@ -24,21 +25,22 @@ namespace CASTROBAR_API.Controllers
             var productosDto = productos.Select(p => _productoService.convertirADto(p));
             return Ok(productosDto);
         }
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Producto>> GetProducto(int id)
+        [HttpGet("{nombre}")]
+        public async Task<ActionResult<List<Producto>>> GetProducto(string nombre)
         {
-            var producto = await _productoRepository.ObtenerProductoIdAsync(id);
-            if (producto == null)
+            var productos = await _productoRepository.ObtenerProductosPorNombreAsync(nombre);
+            if (productos == null || !productos.Any())
             {
-                return NotFound();
+                return NotFound(); 
             }
 
-            return Ok(producto);
+            return Ok(productos); 
         }
 
         [HttpPost]
-        public async Task<ActionResult> CreateProducto(Producto producto)
+        public async Task<ActionResult> CreateProducto(ProductoRequestDto productoRequestDto)
         {
+            var producto = _productoService.ConvertirEnEntidad(productoRequestDto);
             await _productoRepository.AgregarProductoAsync(producto);
             return CreatedAtAction(nameof(GetProducto), new { id = producto.IdProducto }, producto);
         }

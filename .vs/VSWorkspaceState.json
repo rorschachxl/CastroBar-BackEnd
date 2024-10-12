@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CASTROBAR_API"
   ],
-  "SelectedNode": "\\CASTROBAR_API.sln",
+  "SelectedNode": "\\CASTROBAR_API\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

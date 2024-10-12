@@ -18,38 +18,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "producto",
-        "Type": "CASTROBAR_API.Models.Producto",
+        "Name": "productoRequestDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
-    "Method": "GetProducto",
-    "RelativePath": "api/Producto/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "CASTROBAR_API.Models.Producto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   },
   {
     "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
@@ -87,6 +61,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
+    "Method": "GetProducto",
+    "RelativePath": "api/Producto/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CASTROBAR_API.Models.Producto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",

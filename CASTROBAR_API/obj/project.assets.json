@@ -4565,11 +4565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\CASTROBAR_API.csproj",
+      "projectUniqueName": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\CASTROBAR_API.csproj",
       "projectName": "CASTROBAR_API",
-      "projectPath": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\CASTROBAR_API.csproj",
+      "projectPath": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\CASTROBAR_API.csproj",
       "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\obj\\",
+      "outputPath": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",

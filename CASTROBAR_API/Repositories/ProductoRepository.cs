@@ -19,9 +19,11 @@ namespace CASTROBAR_API.Repositories
             return await _context.Productos.ToListAsync();
         }
 
-        public async Task<Producto> ObtenerProductoIdAsync(int id)
+        public async Task<List<Producto>> ObtenerProductosPorNombreAsync(string nombre)
         {
-            return await _context.Productos.FindAsync(id);
+            return await _context.Productos
+                .Where(p => p.NombreProducto.Contains(nombre))
+                .ToListAsync();
         }
 
         public async Task AgregarProductoAsync(Producto producto)
