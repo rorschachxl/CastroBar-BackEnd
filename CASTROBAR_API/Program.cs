@@ -15,6 +15,8 @@ builder.Services.AddDbContext<DbAadd54CastrobarContext>(options => options.UseSq
 builder.Services.AddTransient<UsuarioService>();
 builder.Services.AddTransient<UsuariosRepository>();
 builder.Services.AddTransient<TokenAndEncript>();
+builder.Services.AddTransient<IEmailUtility,EmailUtility>();
+builder.Services.AddTransient<EmailUtility>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

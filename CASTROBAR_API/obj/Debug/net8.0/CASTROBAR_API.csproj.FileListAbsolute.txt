@@ -136,3 +136,6 @@ C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\obj
 C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\obj\Debug\net8.0\CASTROBAR_API.genruntimeconfig.cache
 C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\obj\Debug\net8.0\ref\CASTROBAR_API.dll
 C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\BCrypt.Net-Core.dll
+C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\MailKit.dll
+C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\MimeKit.dll

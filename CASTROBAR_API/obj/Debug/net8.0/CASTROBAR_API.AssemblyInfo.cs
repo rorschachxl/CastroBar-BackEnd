@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CASTROBAR_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b66dc8b4db7c5e6e04ae0664816f3c9cb6701855")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+684782a0e500c64e2cbbb1237933f13ac89de957")]
 [assembly: System.Reflection.AssemblyProductAttribute("CASTROBAR_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CASTROBAR_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

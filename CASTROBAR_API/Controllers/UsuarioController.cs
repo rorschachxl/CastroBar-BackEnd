@@ -196,36 +196,39 @@ namespace CASTROBAR_API.Controllers
                 return StatusCode(StatusCodes.Status404NotFound);
             }
         }
+        [HttpPost]
+        [Route("PasswordRecovery")]
+        public async Task<IActionResult> RecoveryPass([FromBody] RecoveryPassDto email)
+        {
+            try
+            {
+                await _service.RecoveryPass(email.Data);
+                return Ok("Email enviado Revisa tu correo electronico");
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest("el email no existe en el sistema" + ex);
+                throw;
+            }
+        }
+        [HttpPut]
+        [Authorize]
+        [Route("PasswordReset/{id}")]
+        public async Task<IActionResult> PasswordReset([FromBody] RecoveryPassDto rest, int? id)
+        {
+            if (await _service.ResetPass(id, rest.Data) == 1)
+            {
+                return Ok("Contraseña cambiada correctamente");
+            }
+            else
+            {
+                return BadRequest("Error al actualizar");
+            }
+        }
         private bool UsuarioModelExists(string id)
         {
             return _context.Usuarios.Any(e => e.NumeroDocumento == id);
         }
-         [HttpPost("Registrar")]
-        public async Task<IActionResult> RegistrarUsuario([FromBody] UsuarioRequestDto usuario)
-        {
-            try
-            {
-                await _usuarioService.RegistroUsuario(usuario);
-                return Ok(new { mensaje = "Usuario registrado exitosamente" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"ERROR: {ex.Message}");
-            }
-        }
 
-        [HttpPost("Actualizar")]
-        public async Task<IActionResult> ActualizarUSuario([FromForm] string nombre, [FromForm] string apellido, [FromForm] string telefono, [FromForm] string correo, [FromForm] string numeroDocumento)
-        {
-            try
-            {
-                await _usuarioService.ActualizarUSuario(numeroDocumento, nombre, apellido, telefono, correo);
-                return Ok(new { mensaje = "Usuario actualizado con exito" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Error" + ex.Message);
-            }
-        }
     }
 }

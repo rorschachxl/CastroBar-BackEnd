@@ -63,5 +63,23 @@ namespace CASTROBAR_API.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+        public async Task<Usuario> GetUserByMail(string mail)
+        {
+            var userC = await _context.Usuarios.FirstOrDefaultAsync(e => e.Correo == mail);
+            return userC;
+        }
+        public async Task<Usuario> GetUserByID(int? id)
+        {
+            var user = await _context.Usuarios.FindAsync(id);
+#pragma warning disable CS8603 // Possible null reference return.
+            return user;
+#pragma warning restore CS8603 // Possible null reference return.
+        }
+        public async Task UpdateUserPass(Usuario user)
+        {
+            _context.Usuarios.Update(user);
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

@@ -1,6 +1,43 @@
 [
   {
     "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "RecoveryPass",
+    "RelativePath": "api/Usuario/PasswordRecovery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "CASTROBAR_API.Dtos.RecoveryPassDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "PasswordReset",
+    "RelativePath": "api/Usuario/PasswordReset/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rest",
+        "Type": "CASTROBAR_API.Dtos.RecoveryPassDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
     "Method": "CrearUsuario",
     "RelativePath": "api/Usuario/RegistrarUsuario",
     "HttpMethod": "POST",
