@@ -139,3 +139,4 @@ C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin
 C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\MailKit.dll
 C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Genni\Documentos\Desarrollo\Universidad\CASTROBAR_API\CASTROBAR_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

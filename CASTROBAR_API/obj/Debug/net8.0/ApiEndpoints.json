@@ -111,6 +111,247 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CASTROBAR_API.Controllers.MesaController",
+    "Method": "SendOrder",
+    "RelativePath": "SendOrder/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Data",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdOrden",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MesaNumeroMesa",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstado",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Hora",
+        "Type": "System.Nullable\u00601[[System.TimeOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MetodoPagoIdMetodoPago",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuario",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstadoNavigation.IdEstado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstadoNavigation.Estado1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstadoNavigation.Ordens",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Orden, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstadoNavigation.Productos",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Producto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstadoNavigation.Proveedors",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Proveedor, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoIdEstadoNavigation.Usuarios",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Usuario, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MesaNumeroMesaNavigation.NumeroMesa",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MesaNumeroMesaNavigation.Capacidad",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MesaNumeroMesaNavigation.Ordens",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Orden, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MetodoPagoIdMetodoPagoNavigation.IdMetodoPago",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MetodoPagoIdMetodoPagoNavigation.MetodoPago1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MetodoPagoIdMetodoPagoNavigation.Ordens",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Orden, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoOrdens",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.ProductoOrden, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.NumeroDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.Apellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.Correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.Telefono",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.DocumentoIdDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.Contrase\u00F1a",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.RolIdRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.DocumentoIdDocumentoNavigation.IdDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.DocumentoIdDocumentoNavigation.Documento1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.DocumentoIdDocumentoNavigation.Proveedors",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Proveedor, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.DocumentoIdDocumentoNavigation.Usuarios",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Usuario, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstadoNavigation.IdEstado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstadoNavigation.Estado1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstadoNavigation.Ordens",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Orden, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstadoNavigation.Productos",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Producto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstadoNavigation.Proveedors",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Proveedor, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.EstadoIdEstadoNavigation.Usuarios",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Usuario, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.Ordens",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Orden, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.RolIdRolNavigation.IdRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.RolIdRolNavigation.Rol1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioIdUsuarioNavigation.RolIdRolNavigation.Usuarios",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CASTROBAR_API.Models.Usuario, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
     "Method": "PutUsuarioModel",
     "RelativePath": "UpdateUser/{id}",
