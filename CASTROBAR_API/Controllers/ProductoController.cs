@@ -3,11 +3,13 @@ using CASTROBAR_API.Repositories;
 using CASTROBAR_API.Services;
 using Microsoft.AspNetCore.Mvc;
 using CASTROBAR_API.Dtos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CASTROBAR_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductoController : ControllerBase
     {
         private readonly IProductoRepository _productoRepository;

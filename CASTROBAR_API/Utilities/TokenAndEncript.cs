@@ -36,24 +36,27 @@ namespace CASTROBAR_API.Utilities
         //Generate token with claims and secret key access
         public string GenerarToken(string CC, string rol)
         {
-            var SecretKey = _config.GetSection("Key").GetSection("secretKey").ToString();
-#pragma warning disable CS8604 // Possible null reference argument.
+            // Obtén la clave secreta correctamente desde la configuración
+            var SecretKey = _config.GetSection("Key").GetValue<string>("secretKey");
+
+            // Convierte la clave secreta en un array de bytes
             var security = Encoding.ASCII.GetBytes(SecretKey);
-#pragma warning restore CS8604 // Possible null reference argument.
-            //generate data of token
+
+            // Generar los datos del token
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[]{
-                    new Claim(ClaimTypes.Name,CC),
-                    new Claim(ClaimTypes.Role,rol)
-                }),
+            new Claim(ClaimTypes.Name, CC),
+            new Claim(ClaimTypes.Role, rol)
+        }),
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(security), SecurityAlgorithms.HmacSha256Signature)
             };
+
             var TokenHandler = new JwtSecurityTokenHandler();
-            //generate token and create
+
+            // Generar y retornar el token
             var token = TokenHandler.CreateToken(tokenDescriptor);
-            //return token to aplication
             return TokenHandler.WriteToken(token);
         }
     }

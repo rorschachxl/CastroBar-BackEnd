@@ -412,3 +412,4 @@ C:\Users\alejo\Downloads\castrobar\CastroBar-BackEnd\CASTROBAR_API\obj\Debug\net
 C:\Users\alejo\Downloads\castrobar\CastroBar-BackEnd\CASTROBAR_API\obj\Debug\net8.0\CASTROBAR_API.pdb
 C:\Users\alejo\Downloads\castrobar\CastroBar-BackEnd\CASTROBAR_API\obj\Debug\net8.0\CASTROBAR_API.genruntimeconfig.cache
 C:\Users\alejo\Downloads\castrobar\CastroBar-BackEnd\CASTROBAR_API\obj\Debug\net8.0\ref\CASTROBAR_API.dll
+C:\Users\alejo\Downloads\castrobar\CastroBar-BackEnd\CASTROBAR_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
