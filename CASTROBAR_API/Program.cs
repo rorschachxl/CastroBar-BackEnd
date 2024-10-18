@@ -10,14 +10,21 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Agregar autenticación JWT
+// Obtener la clave secreta desde la configuración
+var SecretKey = builder.Configuration["Key:secretKey"];
+if (string.IsNullOrEmpty(SecretKey))
+{
+    throw new InvalidOperationException("SecretKey no está configurada correctamente.");
+}
+
+// Configurar la autenticación JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key")),
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretKey)),
             ValidateIssuer = false,
             ValidateAudience = false
         };
@@ -31,7 +38,7 @@ builder.Services.AddSwaggerGen(c =>
     // Añadir definición de seguridad JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        Description = "JWT Authorization header using the Bearer scheme. Example: 'Bearer {token}'",
+        Description = "JWT Authorization header using the Bearer scheme. Ejemplo: 'Bearer {token}'",
         Name = "Authorization",
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.ApiKey,
@@ -62,8 +69,12 @@ builder.Services.AddDbContext<DbAadd54CastrobarContext>(options =>
 builder.Services.AddTransient<UsuarioService>();
 builder.Services.AddTransient<UsuariosRepository>();
 builder.Services.AddTransient<IProductoRepository, ProductoRepository>();
+builder.Services.AddTransient<IEstadoRepository, EstadoRepository>();
 builder.Services.AddTransient<ProductoService>();
+builder.Services.AddTransient<EstadoService>();
 builder.Services.AddTransient<TokenAndEncript>();
+builder.Services.AddTransient<ProductoUtilities>();
+builder.Services.AddTransient<EstadoUtilities>();
 
 // Agregar Endpoints API Explorer
 builder.Services.AddEndpointsApiExplorer();

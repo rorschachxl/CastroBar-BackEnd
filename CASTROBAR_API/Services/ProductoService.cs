@@ -1,47 +1,40 @@
 ﻿using CASTROBAR_API.Models;
 using CASTROBAR_API.Dtos;
+using CASTROBAR_API.Repositories;
+using CASTROBAR_API.Utilities;
 
 namespace CASTROBAR_API.Services
 {
     public class ProductoService
     {
-        private readonly ProductoService _productoService;
+        private readonly IProductoRepository _productoRepository;
 
-        public ProductoResponseDto convertirADto (Producto producto)
+        public ProductoService(IProductoRepository productoRepository) 
         {
-            if (producto == null)
-            {
-                throw new ArgumentNullException(nameof(producto), "El producto no puede ser nulo.");
-            }
-
-            return new ProductoResponseDto
-            {
-                idProducto = producto.IdProducto,
-                nombreProducto = producto.NombreProducto,
-                descripcion = producto.DescripcionProducto,
-                precioVenta = producto.PrecioVenta,
-                precioCompra = producto.PrecioCompra.HasValue ? (double)producto.PrecioCompra.Value : 0.0,
-                cantidad = producto.Cantidad.HasValue ? (int)producto.Cantidad.Value : 0,
-                RecetaIdReceta = producto.RecetaIdReceta.HasValue ? (int)producto.RecetaIdReceta.Value : 0,
-                EstadoIdEstado = producto.EstadoIdEstado.HasValue ? (int)producto.EstadoIdEstado.Value : 0,
-                CategoriaIdCategoria = producto.CategoriaIdCategoria.HasValue ? (int)producto.CategoriaIdCategoria.Value : 0,
-                SubcategoriaIdSubcategoria = producto.SubcategoriaIdSubcategoria.HasValue ? (int)producto.SubcategoriaIdSubcategoria.Value : 0
-            };
+            _productoRepository = productoRepository;
         }
-        public Producto ConvertirEnEntidad(ProductoRequestDto productoRequestDto)
+
+        public async Task<IEnumerable<ProductoResponseDto>> ObtenerProductos()
         {
-            return new Producto
-            {
-                NombreProducto = productoRequestDto.nombreProducto,
-                DescripcionProducto = productoRequestDto.descripcion,
-                PrecioVenta = productoRequestDto.precioVenta,
-                PrecioCompra = productoRequestDto.precioCompra,
-                Cantidad = productoRequestDto.cantidad,
-                RecetaIdReceta = productoRequestDto.RecetaIdReceta,
-                EstadoIdEstado = productoRequestDto.EstadoIdEstado,
-                CategoriaIdCategoria = productoRequestDto.CategoriaIdCategoria,
-                SubcategoriaIdSubcategoria = productoRequestDto.SubcategoriaIdSubcategoria,
-            };
+            var productos = await _productoRepository.ObtenerTodosProductos();
+            return productos;
+        }
+        public async Task<int> CrearProducto(ProductoRequestDto productoRequestDto)
+        {
+            int idProducto = await _productoRepository.AgregarProductoAsync(productoRequestDto);
+            return idProducto;
+        }
+
+        public async Task<int> ActualizarProducto(int id, ProductoRequestDto productoRequestDto)
+        {
+            int respuesta = await _productoRepository.ActualizarProductoAsync(id, productoRequestDto);
+            return respuesta;
+        }
+
+        public async Task<int> EliminarProducto(int id)
+        {
+            int respuesta = await _productoRepository.BorrarProductoAsync(id);
+            return respuesta;
         }
     }
 }

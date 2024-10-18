@@ -4,12 +4,12 @@ using CASTROBAR_API.Services;
 using Microsoft.AspNetCore.Mvc;
 using CASTROBAR_API.Dtos;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace CASTROBAR_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class ProductoController : ControllerBase
     {
         private readonly IProductoRepository _productoRepository;
@@ -21,42 +21,46 @@ namespace CASTROBAR_API.Controllers
             _productoService = productoService;
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
-            var productos = await _productoRepository.ObtenerTodosProductos();
-            var productosDto = productos.Select(p => _productoService.convertirADto(p));
-            return Ok(productosDto);
-        }
-        [HttpGet("{nombre}")]
-        public async Task<ActionResult<List<Producto>>> GetProducto(string nombre)
-        {
-            var productos = await _productoRepository.ObtenerProductosPorNombreAsync(nombre);
-            if (productos == null || !productos.Any())
+            var productos = await _productoService.ObtenerProductos();
+            if (productos == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
-
-            return Ok(productos); 
+            else
+            {
+                return Ok(productos);
+            }
         }
 
         [HttpPost]
         public async Task<ActionResult> CreateProducto(ProductoRequestDto productoRequestDto)
         {
-            var producto = _productoService.ConvertirEnEntidad(productoRequestDto);
-            await _productoRepository.AgregarProductoAsync(producto);
-            return CreatedAtAction(nameof(GetProducto), new { id = producto.IdProducto }, producto);
+            int id= await _productoService.CrearProducto(productoRequestDto);
+
+            if (id > 0) {
+                return Ok(new { id });
+            } else {
+                return BadRequest("no se puedo agregar el producto");
+                    }
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateProducto(int id, Producto producto)
+        public async Task<ActionResult> UpdateProducto(int id, ProductoRequestDto productoRequestDto)
         {
-            if (id != producto.IdProducto)
+            int resultado = await _productoService.ActualizarProducto(id, productoRequestDto);
+
+            if (resultado == 1)
             {
-                return BadRequest();
+                return Ok(new { Message = "El producto se ha actualizado correctamente" });
+            }
+            else
+            {
+                return BadRequest(new object[] { resultado });
             }
 
-            await _productoRepository.ActualizarProductoAsync(producto);
-            return NoContent();
         }
 
         [HttpDelete("{id}")]

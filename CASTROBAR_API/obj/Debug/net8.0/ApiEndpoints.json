@@ -1,5 +1,68 @@
 [
   {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "ObtenerEstados",
+    "RelativePath": "api/Estado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "CrearEstado",
+    "RelativePath": "api/Estado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoDto",
+        "Type": "CASTROBAR_API.Dtos.EstadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Estado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estadoDto",
+        "Type": "CASTROBAR_API.Dtos.EstadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "BorrarEstado",
+    "RelativePath": "api/Estado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
     "Method": "GetAll",
     "RelativePath": "api/Producto",
@@ -39,8 +102,8 @@
         "IsRequired": true
       },
       {
-        "Name": "producto",
-        "Type": "CASTROBAR_API.Models.Producto",
+        "Name": "productoRequestDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoRequestDto",
         "IsRequired": true
       }
     ],
@@ -61,32 +124,6 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
-    "Method": "GetProducto",
-    "RelativePath": "api/Producto/{nombre}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "nombre",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[CASTROBAR_API.Models.Producto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   },
   {
     "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
