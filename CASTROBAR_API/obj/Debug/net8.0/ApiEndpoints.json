@@ -1,5 +1,52 @@
 [
   {
+    "ContainingType": "CASTROBAR_API.Controllers.CategoriaController",
+    "Method": "ObtenerCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.CategoriaController",
+    "Method": "CrearCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaRequestDto",
+        "Type": "CASTROBAR_API.Dtos.CategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.CategoriaController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoriaRequestDto",
+        "Type": "CASTROBAR_API.Dtos.CategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
     "Method": "ObtenerEstados",
     "RelativePath": "api/Estado",
@@ -120,6 +167,53 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.SubcategoriaController",
+    "Method": "ObtenerSubCategorias",
+    "RelativePath": "api/Subcategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.SubcategoriaController",
+    "Method": "CrearSubategoria",
+    "RelativePath": "api/Subcategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subcategoriaRequestDto",
+        "Type": "CASTROBAR_API.DTOs.SubcategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.SubcategoriaController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Subcategoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "subcategoriaRequestDto",
+        "Type": "CASTROBAR_API.DTOs.SubcategoriaRequestDto",
         "IsRequired": true
       }
     ],

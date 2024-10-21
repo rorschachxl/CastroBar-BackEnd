@@ -63,6 +63,10 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Otros servicios
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("2"));
+});
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DbAadd54CastrobarContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -71,12 +75,18 @@ builder.Services.AddTransient<UsuariosRepository>();
 builder.Services.AddTransient<IProductoRepository, ProductoRepository>();
 builder.Services.AddTransient<IEstadoRepository, EstadoRepository>();
 builder.Services.AddTransient<IRecetaRepository, RecetaRepository>();
+builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddTransient<ISubcategoriaRepository, SubcategoriaRepository>();
 builder.Services.AddTransient<ProductoService>();
+builder.Services.AddTransient<CategoriaService>();
+builder.Services.AddTransient<SubcategoriaService>();
 builder.Services.AddTransient<RecetaService>();
 builder.Services.AddTransient<EstadoService>();
 builder.Services.AddTransient<TokenAndEncript>();
 builder.Services.AddTransient<ProductoUtilities>();
 builder.Services.AddTransient<EstadoUtilities>();
+builder.Services.AddTransient<CategoriaUtilities>();
+builder.Services.AddTransient<SubcategoriaUtilities>();
 
 // Agregar Endpoints API Explorer
 builder.Services.AddEndpointsApiExplorer();

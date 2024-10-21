@@ -12,17 +12,16 @@ namespace CASTROBAR_API.Controllers
     [ApiController]
     public class EstadoController : ControllerBase
     {
-        private readonly IEstadoRepository _estadoRepository;
+        
         private readonly EstadoService _estadoService;
 
-        public EstadoController(IEstadoRepository estadoRepository, EstadoService estadoService)
+        public EstadoController( EstadoService estadoService)
         {
-            _estadoRepository = estadoRepository;
             _estadoService = estadoService;
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = "RequireAdminRole")]
         public async Task<IActionResult> ObtenerEstados()
         {
             var estados = await _estadoService.ObtenerEstados();

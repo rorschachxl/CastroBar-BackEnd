@@ -3,52 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\models\\subcategorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\subcategorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\repositories\\subcategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\subcategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\repositories\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\dtos\\subcategoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\subcategoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\utilities\\tokenandencript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\tokenandencript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\models\\auditorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\auditorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\utilities\\subcategoriautilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\subcategoriautilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\models\\recetum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\recetum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\controllers\\subcategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\subcategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\services\\subcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\subcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\repositories\\isubcategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\isubcategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\utilities\\categoriautilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\categoriautilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\dtos\\categoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\categoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\dtos\\categoriarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\categoriarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\dtos\\subcategoriarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\subcategoriarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\downloads\\castrobar\\castrobar-backend\\castrobar_api\\repositories\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,156 +87,222 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Program.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T02:45:55.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenAndEncript.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:17:24.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAowFUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:13:28.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
-              "RelativeToolTip": "CASTROBAR_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T02:48:20.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Auditorium.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Auditorium.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Auditorium.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Auditorium.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\Auditorium.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:07:03.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Producto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T01:47:45.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Estado.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Estado.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Estado.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\Estado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T01:17:34.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Recetum.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Recetum.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Recetum.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Recetum.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\Recetum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:13:24.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "DbAadd54CastrobarContext.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
               "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
               "RelativeToolTip": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAwwCgBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAwwIMBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T02:51:45.803Z",
+              "WhenOpened": "2024-10-21T23:22:35.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAowFEAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowD0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T02:41:30.615Z",
+              "WhenOpened": "2024-10-21T23:07:13.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubcategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\SubcategoriaService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\SubcategoriaService.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\SubcategoriaService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\SubcategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:43:22.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\CategoriaResponseDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\CategoriaResponseDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\CategoriaResponseDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\CategoriaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:12:59.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoriaRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\CategoriaRequestDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\CategoriaRequestDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\CategoriaRequestDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\CategoriaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:12:56.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubcategoriaUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\SubcategoriaUtilities.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\SubcategoriaUtilities.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\SubcategoriaUtilities.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Utilities\\SubcategoriaUtilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:12:45.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IProductoRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\IProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
+              "Title": "SubcategoriaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\SubcategoriaResponseDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\SubcategoriaResponseDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\SubcategoriaResponseDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\SubcategoriaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T00:32:15.779Z",
+              "WhenOpened": "2024-10-21T03:02:24.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoService.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProductoService.cs",
-              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoService.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Services\\ProductoService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBYAAAAJAAAAAAAAAA==",
+              "Title": "Subcategorium.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Subcategorium.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Subcategorium.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Subcategorium.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Models\\Subcategorium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T00:29:40.221Z",
+              "WhenOpened": "2024-10-21T02:47:56.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SubcategoriaRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\SubcategoriaRequestDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\SubcategoriaRequestDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\SubcategoriaRequestDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\SubcategoriaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:47:39.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubcategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\SubcategoriaRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\SubcategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\SubcategoriaRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\SubcategoriaRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:45:51.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISubcategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ISubcategoriaRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ISubcategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ISubcategoriaRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ISubcategoriaRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:45:32.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubcategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:44:53.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T01:15:14.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriaUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\CategoriaUtilities.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\CategoriaUtilities.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\CategoriaUtilities.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Utilities\\CategoriaUtilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T00:56:43.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T00:48:04.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ICategoriaRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T00:47:40.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\alejo\\Downloads\\castrobar\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwFgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:45:55.049Z",
               "EditorCaption": ""
             }
           ]

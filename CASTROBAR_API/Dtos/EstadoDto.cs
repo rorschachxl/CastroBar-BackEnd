@@ -1,4 +1,4 @@
-﻿namespace CASTROBAR_API.Dtos
+﻿    namespace CASTROBAR_API.Dtos
 {
     public class EstadoDto
     {

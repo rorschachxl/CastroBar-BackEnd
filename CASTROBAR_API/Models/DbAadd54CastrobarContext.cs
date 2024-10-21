@@ -93,8 +93,9 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("CATEGORIA");
 
             entity.Property(e => e.IdCategoria)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()  
                 .HasColumnName("idCategoria");
+
             entity.Property(e => e.Categoria)
                 .HasMaxLength(50)
                 .IsUnicode(false)
@@ -384,8 +385,9 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("SUBCATEGORIA");
 
             entity.Property(e => e.IdSubcategoria)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd() 
                 .HasColumnName("idSubcategoria");
+
             entity.Property(e => e.Subcategoria)
                 .HasMaxLength(50)
                 .IsUnicode(false)
