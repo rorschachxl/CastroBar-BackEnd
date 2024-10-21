@@ -2,6 +2,7 @@
 using CASTROBAR_API.Models;
 using CASTROBAR_API.Utilities;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace CASTROBAR_API.Repositories
 {
@@ -23,10 +24,37 @@ namespace CASTROBAR_API.Repositories
         }
         public async Task<int> AgregarEstadoAsync(EstadoDto estadoDto)
         {
-            var estado = _estadoUtilities.ConvertirEnEntidad(estadoDto);
-            await _context.Estados.AddAsync(estado);
-            await _context.SaveChangesAsync();
-            return estado.IdEstado;
+            try
+            {
+                var estado = _estadoUtilities.ConvertirEnEntidad(estadoDto);
+
+                var validationResults = new List<ValidationResult>();
+                var validationContext = new ValidationContext(estado);
+                bool isValid = Validator.TryValidateObject(estado, validationContext, validationResults, true);
+
+                if (!isValid)
+                {
+                    string errores = string.Join("; ", validationResults.Select(r => r.ErrorMessage));
+                    throw new ValidationException($"La validación del estado falló: {errores}");
+                }
+
+                await _context.Estados.AddAsync(estado);
+                await _context.SaveChangesAsync();
+
+                return estado.IdEstado;
+            }
+            catch (ValidationException vex)
+            {
+                throw;
+            }
+            catch (DbUpdateException dbex)
+            {
+                throw new Exception("Hubo un error al intentar guardar el estado en la base de datos.", dbex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ocurrió un error inesperado.", ex);
+            }
         }
         public async Task<int> ActualizarEstadoAsync(int id, EstadoDto estadoDto)
         {

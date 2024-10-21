@@ -9,7 +9,7 @@ public partial class ProductoRecetum
 
     public int? ProductoIdProducto { get; set; }
 
-    public int? RecetaIdReceta { get; set; }
+    public int? RECETAIdReceta { get; set; }
 
     public int? Cantidad { get; set; }
 

@@ -279,21 +279,34 @@ public partial class DbAadd54CastrobarContext : DbContext
 
         modelBuilder.Entity<ProductoRecetum>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("PRODUCTO_RECETA");
+            entity.HasKey(e => e.IdProductoReceta); // Definir clave primaria
 
-            entity.Property(e => e.Cantidad).HasColumnName("cantidad");
-            entity.Property(e => e.IdProductoReceta).HasColumnName("idProductoReceta");
-            entity.Property(e => e.ProductoIdProducto).HasColumnName("PRODUCTO_idProducto");
-            entity.Property(e => e.RecetaIdReceta).HasColumnName("RECETA_idReceta");
+            // Configurar IdProductoReceta como autoincremental
+            entity.Property(e => e.IdProductoReceta)
+                .ValueGeneratedOnAdd() // Configurar como autoincremental
+                .HasColumnName("idProductoReceta"); // Asegúrate de tener un nombre de columna coherente
 
-            entity.HasOne(d => d.ProductoIdProductoNavigation).WithMany()
+            entity.ToTable("PRODUCTO_RECETA");
+
+            // Configuración de las demás propiedades
+            entity.Property(e => e.Cantidad)
+                .HasColumnName("cantidad");
+
+            entity.Property(e => e.ProductoIdProducto)
+                .HasColumnName("PRODUCTO_idProducto");
+
+            entity.Property(e => e.RECETAIdReceta)
+                .HasColumnName("RECETA_idReceta");
+
+            // Configuración de las relaciones
+            entity.HasOne(d => d.ProductoIdProductoNavigation)
+                .WithMany()
                 .HasForeignKey(d => d.ProductoIdProducto)
                 .HasConstraintName("FK_PRODUCTO_RECETA_PRODUCTO");
 
-            entity.HasOne(d => d.RecetaIdRecetaNavigation).WithMany()
-                .HasForeignKey(d => d.RecetaIdReceta)
+            entity.HasOne(d => d.RecetaIdRecetaNavigation)
+                .WithMany()
+                .HasForeignKey(d => d.RECETAIdReceta)
                 .HasConstraintName("FK_PRODUCTO_RECETA_RECETA");
         });
 
@@ -341,10 +354,11 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("RECETA");
 
             entity.Property(e => e.IdReceta)
-                .ValueGeneratedNever()
-                .HasColumnName("id_Receta");
+                .ValueGeneratedOnAdd()
+                .HasColumnName("idReceta"); // Nombre consistente en español
+
             entity.Property(e => e.Preparacion)
-                .HasColumnType("text")
+                .HasColumnType("nvarchar(max)") // Usar nvarchar para mejor compatibilidad
                 .HasColumnName("preparacion");
         });
 

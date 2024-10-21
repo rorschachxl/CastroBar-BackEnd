@@ -2,6 +2,7 @@
 using CASTROBAR_API.Dtos;
 using CASTROBAR_API.Models;
 using CASTROBAR_API.Utilities;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -84,19 +85,15 @@ namespace CASTROBAR_API.Repositories
                 return 500;
             }
         }
-        public async Task<int> BorrarProductoAsync(int id)
+        public async Task<int> BorrarProductoAsync(int id, string usuarioEliminacion)
         {
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto != null)
-            {
-                _context.Productos.Remove(producto);
-                await _context.SaveChangesAsync();
-                return 200;
-            }
-            else
-            {
-                return 500;
-            }
+            var idParameter = new SqlParameter("@IdProducto", id);
+            var usuarioParameter = new SqlParameter("@UsuarioEliminacion", usuarioEliminacion);
+
+            var result = await _context.Database.ExecuteSqlRawAsync("EXEC EliminarProducto @IdProducto, @UsuarioEliminacion", idParameter, usuarioParameter);
+
+            return result > 0 ? 200 : 500;
+
         }
     }
 }

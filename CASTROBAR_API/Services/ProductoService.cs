@@ -8,10 +8,12 @@ namespace CASTROBAR_API.Services
     public class ProductoService
     {
         private readonly IProductoRepository _productoRepository;
+        private readonly TokenAndEncript _tokenAndEncript;
 
-        public ProductoService(IProductoRepository productoRepository) 
+        public ProductoService(IProductoRepository productoRepository, TokenAndEncript tokenAndEncript)
         {
             _productoRepository = productoRepository;
+            _tokenAndEncript = tokenAndEncript;
         }
 
         public async Task<IEnumerable<ProductoResponseDto>> ObtenerProductos()
@@ -31,10 +33,23 @@ namespace CASTROBAR_API.Services
             return respuesta;
         }
 
-        public async Task<int> EliminarProducto(int id)
+        public async Task<int> EliminarProducto(int id, string authHeader)
         {
-            int respuesta = await _productoRepository.BorrarProductoAsync(id);
-            return respuesta;
+            
+            if (!string.IsNullOrEmpty(authHeader) && authHeader.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
+            {
+                
+                var token = authHeader.Substring("Bearer ".Length).Trim();
+
+                
+                var user = _tokenAndEncript.ObtenerUsuarioDesdeToken(token);
+                await _productoRepository.BorrarProductoAsync(id, user);
+                return 200;
+            }
+            else
+            {
+                throw new Exception("Encabezado de autorización no válido o faltante.");
+            }
         }
     }
 }

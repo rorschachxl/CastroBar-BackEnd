@@ -11,7 +11,7 @@ namespace CASTROBAR_API.Repositories
         Task<IEnumerable<ProductoResponseDto>> ObtenerTodosProductos();
         Task <int>AgregarProductoAsync(ProductoRequestDto producto);
         Task <int> ActualizarProductoAsync(int id, ProductoRequestDto producto);
-        Task <int> BorrarProductoAsync(int id);
+        Task <int> BorrarProductoAsync(int id, string usuarioEliminacion);
 
     }
 }

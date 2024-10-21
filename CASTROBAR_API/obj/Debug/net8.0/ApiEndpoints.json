@@ -251,6 +251,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
+    "Method": "CrearRecetaConProductos",
+    "RelativePath": "Receta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetaDto",
+        "Type": "CASTROBAR_API.Dtos.RecetaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CASTROBAR_API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

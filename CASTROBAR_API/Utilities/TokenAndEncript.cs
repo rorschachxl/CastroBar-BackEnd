@@ -41,19 +41,53 @@ namespace CASTROBAR_API.Utilities
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]{
-            new Claim(ClaimTypes.Name, CC),
+                Subject = new ClaimsIdentity(new[] {
+            new Claim("unique_name", CC), // Cambiado a "unique_name"
             new Claim(ClaimTypes.Role, rol),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())  
-
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         }),
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(security), SecurityAlgorithms.HmacSha256Signature)
             };
 
-            var TokenHandler = new JwtSecurityTokenHandler();
-            var token = TokenHandler.CreateToken(tokenDescriptor);
-            return TokenHandler.WriteToken(token);
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
+
+        public string ObtenerUsuarioDesdeToken(string token)
+        {
+            try
+            {
+
+                if (string.IsNullOrWhiteSpace(token))
+                {
+                    throw new Exception("El token está vacío o no es válido.");
+                }
+
+                var tokenHandler = new JwtSecurityTokenHandler();
+                
+
+                var jwtToken = tokenHandler.ReadToken(token) as JwtSecurityToken;
+
+                if (jwtToken == null)
+                {
+                    throw new Exception("El token no es válido.");
+                }
+
+                // Obtener el campo unique_name
+                var usuarios = jwtToken.Claims
+                    .Where(c => c.Type == "unique_name") // Cambiado a "unique_name"
+                    .Select(c => c.Value)
+                    .ToList();
+
+                return usuarios.Any() ? string.Join(", ", usuarios) : "Usuario no encontrado";
+            }
+            catch (Exception ex)
+            {
+                // Mejor manejo de errores
+                throw new Exception($"Error al decodificar el token: {ex.Message}", ex);
+            }
         }
     }
 }
