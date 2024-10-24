@@ -345,8 +345,61 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoRecetaController",
+    "Method": "AgregarProductosReceta",
+    "RelativePath": "ProductoReceta/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetaDto",
+        "Type": "System.Collections.Generic.List\u00601[[CASTROBAR_API.Dtos.ProductoRecetaRequestDto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoRecetaController",
+    "Method": "EliminarProductoReceta",
+    "RelativePath": "ProductoReceta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoRecetaController",
+    "Method": "ObtenerProductosPorReceta",
+    "RelativePath": "ProductoReceta/{idReceta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idReceta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
-    "Method": "CrearRecetaConProductos",
+    "Method": "CrearReceta",
     "RelativePath": "Receta",
     "HttpMethod": "POST",
     "IsController": true,
@@ -354,7 +407,33 @@
     "Parameters": [
       {
         "Name": "recetaDto",
-        "Type": "CASTROBAR_API.Dtos.RecetaDto",
+        "Type": "CASTROBAR_API.Dtos.RecetaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
+    "Method": "ObtenerRecetas",
+    "RelativePath": "Receta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
+    "Method": "EliminarReceta",
+    "RelativePath": "Receta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

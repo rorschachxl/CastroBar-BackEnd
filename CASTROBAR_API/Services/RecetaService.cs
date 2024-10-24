@@ -12,9 +12,18 @@ namespace CASTROBAR_API.Services
             _recetaRepository = recetaRepository;
         }
 
-        public async Task AgregarRecetaConProductos(RecetaDto recetaDto)
+        public async Task<int> AgregarReceta(RecetaRequestDto recetaDto)
         {
-            await _recetaRepository.AgregarRecetaConProductosAsync(recetaDto);
+            int result = await _recetaRepository.AgregarRecetaAsync(recetaDto);
+            return result;
+        }
+        public async Task<List<RecetaResponseDto>> ObtenerTodasLasRecetas()
+        {
+            return await _recetaRepository.ObtenerTodasLasRecetas();
+        }
+        public async Task EliminarRecetaYActualizarProductos(int idReceta)
+        {
+            await _recetaRepository.EliminarRecetaYActualizarProductos(idReceta);
         }
     }
 }

@@ -3,6 +3,8 @@ namespace CASTROBAR_API.Repositories
 {
     public interface IRecetaRepository
     {
-        Task AgregarRecetaConProductosAsync(RecetaDto recetaDto);
+        Task<int> AgregarRecetaAsync(RecetaRequestDto recetaRequest);
+        Task<List<RecetaResponseDto>> ObtenerTodasLasRecetas();
+        Task EliminarRecetaYActualizarProductos(int idReceta);
     }
 }

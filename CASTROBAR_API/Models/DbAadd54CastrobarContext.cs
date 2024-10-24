@@ -227,9 +227,11 @@ public partial class DbAadd54CastrobarContext : DbContext
                 .HasForeignKey(d => d.EstadoIdEstado)
                 .HasConstraintName("FK_PRODUCTO_ESTADO");
 
-            entity.HasOne(d => d.RecetaIdRecetaNavigation).WithMany(p => p.Productos)
-                .HasForeignKey(d => d.RecetaIdReceta)
-                .HasConstraintName("FK_PRODUCTO_RECETA");
+            entity.HasOne(d => d.RecetaIdRecetaNavigation)
+    .WithMany(p => p.Productos)
+    .HasForeignKey(d => d.RecetaIdReceta)
+    .OnDelete(DeleteBehavior.SetNull) // Cambiado a SetNull
+    .HasConstraintName("FK_PRODUCTO_RECETA");
 
             entity.HasOne(d => d.SubcategoriaIdSubcategoriaNavigation).WithMany(p => p.Productos)
                 .HasForeignKey(d => d.SubcategoriaIdSubcategoria)
