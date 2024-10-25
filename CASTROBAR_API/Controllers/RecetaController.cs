@@ -8,8 +8,8 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace CASTROBAR_API.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class RecetaController : ControllerBase
     {
         private readonly IRecetaRepository _recetaRepository;
@@ -20,12 +20,12 @@ namespace CASTROBAR_API.Controllers
             _recetaRepository = recetaRepository;
             _recetaService = recetaService;
         }
-        [HttpPost]
+
+        [HttpPost("AgregarReceta")] // Cambia aquí
         public async Task<IActionResult> CrearReceta([FromBody] RecetaRequestDto recetaDto)
         {
             try
             {
-                // Llama al servicio y captura el ID de la receta
                 int recetaId = await _recetaService.AgregarReceta(recetaDto);
                 return Ok(new { mensaje = "Receta creada exitosamente", idReceta = recetaId });
             }
@@ -34,7 +34,8 @@ namespace CASTROBAR_API.Controllers
                 return BadRequest($"Error: {ex.Message}");
             }
         }
-        [HttpGet]
+
+        [HttpGet("ObtenerRecetas")] // Cambia aquí
         public async Task<IActionResult> ObtenerRecetas()
         {
             try
@@ -47,7 +48,8 @@ namespace CASTROBAR_API.Controllers
                 return BadRequest($"Error: {ex.Message}");
             }
         }
-        [HttpDelete("{id}")]
+
+        [HttpDelete("BorrarReceta/{id}")]
         public async Task<IActionResult> EliminarReceta(int id)
         {
             try

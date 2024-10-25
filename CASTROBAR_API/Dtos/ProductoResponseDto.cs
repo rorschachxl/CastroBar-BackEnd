@@ -12,5 +12,6 @@
         public int EstadoIdEstado { get; set; }
         public int CategoriaIdCategoria { get; set; }
         public int SubcategoriaIdSubcategoria { get; set; }
+        public int IdProductoProveedor { get; set; }  
     }
 }
