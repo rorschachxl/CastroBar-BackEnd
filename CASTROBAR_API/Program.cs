@@ -26,7 +26,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(
     options =>{
         options.SwaggerDoc("v1", new OpenApiInfo{
-            Title = "Mave API",
+            Title = "CastroBar API",
             Version = "v1",
             Description = "Esta es la API de CastroBar, esta API esta enfocada en ser una herramienta útil para el manejo de mesas en restaurantes, priorizando el servicio rapido al usuario, también hay una función que permite encasillar a las personas en Mesas de manera ordenada. Tambien hay una funcionalidad que permite hacer un seguimiento de la cuenta , asi como también hay funciones para generar los pagos."
         });
@@ -77,6 +77,11 @@ builder.Services.AddAuthentication(confg =>
     };
 });
 
+builder.Services.AddCors(options=>{
+    options.AddPolicy ("NuevaPolitica", app=>{
+        app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -85,6 +90,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("NuevaPolitica");
 
 app.UseHttpsRedirection();
 

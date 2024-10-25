@@ -11,11 +11,11 @@ namespace CASTROBAR_API.Controllers
 {
     public class MesaController: ControllerBase
     {
+        
         [HttpPost]
         [Route("SendOrder/{id}")]
-        public async Task<IActionResult> SendOrder(string id,RecoveryPassDto NumMesa, Orden orden)
-         {
+        public async Task<IActionResult> SendOrder(string id,MesaDto mesa){
             return Ok();
-         }
+        }
     }
 }

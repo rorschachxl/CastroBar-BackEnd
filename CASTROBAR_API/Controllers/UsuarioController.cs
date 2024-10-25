@@ -83,7 +83,7 @@ namespace CASTROBAR_API.Controllers
             {
                 var ress = new JsonFile
                 {
-                    Message = "Usuario Actualizado correctamente"
+                    Message = "Usuario Actualizado Correctamente"
                 };
                 var result = JsonSerializer.Serialize(ress);
                 return StatusCode(StatusCodes.Status200OK, result);
@@ -128,7 +128,7 @@ namespace CASTROBAR_API.Controllers
             {
                 var ress = new JsonFile
                 {
-                    Message = "Bienvenido al sistema"
+                    Message = "Bienvenido al Sistema"
                 };
                 var result = JsonSerializer.Serialize(ress);
                 return StatusCode(StatusCodes.Status200OK, result);
@@ -170,11 +170,11 @@ namespace CASTROBAR_API.Controllers
         {
             if (await _service.deleteUser(id))
             {
-                return Ok("Usuario Eliminado correctamente");
+                return Ok("Usuario Eliminado Correctamente");
             }
             else
             {
-                return NotFound("algo fallo al eliminar el usuario");
+                return NotFound("Algo fallo al eliminar el usuario");
             }
         }
 
@@ -190,7 +190,8 @@ namespace CASTROBAR_API.Controllers
                 {
                     Id = Convert.ToString(user.IdUsuario),
                     Token = token,
-                    Message = "Bienvenido al sistema"
+                    Message = "Bienvenido al sistema",
+                    User = user.Nombre
                 };
                 var result = JsonSerializer.Serialize(userToken);
                 return StatusCode(StatusCodes.Status200OK, result);
@@ -207,11 +208,11 @@ namespace CASTROBAR_API.Controllers
             try
             {
                 await _service.RecoveryPass(email.Data);
-                return Ok("Email enviado Revisa tu correo electronico");
+                return Ok("Correo enviado Revisa tu correo electronico");
             }
             catch (System.Exception ex)
             {
-                return BadRequest("el email no existe en el sistema" + ex);
+                return BadRequest("El correo no existe en el sistema" + ex);
                 throw;
             }
         }
@@ -222,11 +223,11 @@ namespace CASTROBAR_API.Controllers
         {
             if (await _service.ResetPass(id, rest.Data) == 1)
             {
-                return Ok("Contraseña cambiada correctamente");
+                return Ok("Contraseña Cambiada Correctamente");
             }
             else
             {
-                return BadRequest("Error al actualizar");
+                return BadRequest("Error al Actualizar");
             }
         }
         private bool UsuarioModelExists(string id)
