@@ -32,7 +32,7 @@ namespace CASTROBAR_API.Controllers
 
         // GET: api/Usuario/5
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "2")]
         [Route("/GetAllUsers")]
         public async Task<IActionResult> GetUsuarios()
         {
@@ -56,7 +56,7 @@ namespace CASTROBAR_API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "2")]
         [Route("/GetUserById/{id}")]
         public async Task<IActionResult> GetUserById(string id)
         {
@@ -74,7 +74,7 @@ namespace CASTROBAR_API.Controllers
         }
 
         [HttpPut]
-        [Authorize]
+        [Authorize(Roles = "2")]
         [Route("/UpdateUser/{id}")]
         public async Task<IActionResult> PutUsuarioModel(string id, UpdateUserDto usuarioModel)
         {
@@ -120,6 +120,7 @@ namespace CASTROBAR_API.Controllers
         // POST: api/Usuario
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "2")]
         [Route("RegistrarUsuario")]
         public async Task<IActionResult> CrearUsuario(UsuarioDto usuario)
         {
@@ -164,7 +165,7 @@ namespace CASTROBAR_API.Controllers
 
         // DELETE: api/Usuario/5
         [HttpDelete]
-        [Authorize]
+        [Authorize(Roles = "2")]
         [Route("/DeleteUser/{id}")]
         public async Task<IActionResult> DeleteUsuarioModel(string id)
         {
