@@ -16,23 +16,32 @@ namespace CASTROBAR_API.Repositories
         public async Task<List<MesaResponseDto>> ObtenerTodasLasMesasAsync()
         {
             var mesas = await _context.Mesas
-                .Select(m => new MesaResponseDto
+                .Select(m => new
                 {
-                    NumeroMesa = m.NumeroMesa,
-                    Capacidad = m.Capacidad,
-                    OrdenIdOrden = m.ORDENIdOrden,
-                    EstadoIdEstado = m.ESTADOIdEstado
-                }).ToListAsync();
+                    Mesa = m,
+                    OrdenId = _context.Ordens
+                        .Where(o => o.MesaNumeroMesa == m.NumeroMesa)
+                        .Select(o => o.IdOrden)
+                        .FirstOrDefault() // Obtener el ID de la primera orden o null
+                })
+                .Select(x => new MesaResponseDto
+                {
+                    NumeroMesa = x.Mesa.NumeroMesa,
+                    Capacidad = x.Mesa.Capacidad,
+                    EstadoIdEstado = x.Mesa.ESTADOIdEstado,
+                    OrdenId = x.OrdenId // Agregar el ID de la orden
+                })
+                .ToListAsync();
 
             return mesas;
         }
+
         public async Task<int> AgregarMesa(MesaRequestDto mesaDto)
         {
             var nuevaMesa = new Mesa
             {
                 Capacidad = mesaDto.Capacidad,
                 ESTADOIdEstado = 21, 
-                ORDENIdOrden = null 
             };
 
             _context.Mesas.Add(nuevaMesa);

@@ -10,7 +10,8 @@ namespace CASTROBAR_API.Utilities
     {
         //import config data
         private readonly IConfiguration _config;
-        public TokenAndEncript(IConfiguration config) {
+        public TokenAndEncript(IConfiguration config)
+        {
             _config = config;
         }
         // hash to password with bcrypt
@@ -23,7 +24,7 @@ namespace CASTROBAR_API.Utilities
         // verify pass with Bcrypt 
         public bool VerifyPassword(string password, string hashedPassword)
         {
-            if (BCrypt.Net.BCrypt.Verify(password, hashedPassword)==true)
+            if (BCrypt.Net.BCrypt.Verify(password, hashedPassword) == true)
             {
                 return true;
             }
@@ -36,58 +37,26 @@ namespace CASTROBAR_API.Utilities
         //Generate token with claims and secret key access
         public string GenerarToken(string CC, string rol)
         {
-            var secretKey = _config.GetValue<string>("Key:secretKey");
-            var security = Encoding.ASCII.GetBytes(secretKey);
-
+            var SecretKey = _config.GetSection("Key").GetSection("secretKey").ToString();
+#pragma warning disable CS8604 // Possible null reference argument.
+            var security = Encoding.ASCII.GetBytes(SecretKey);
+#pragma warning restore CS8604 // Possible null reference argument.
+            //generate data of token
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[] {
-            new Claim("unique_name", CC), // Cambiado a "unique_name"
-            new Claim(ClaimTypes.Role, rol),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        }),
+                Subject = new ClaimsIdentity(new[]{
+                    new Claim(ClaimTypes.Name,CC),
+                    new Claim(ClaimTypes.Role,rol),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                }),
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(security), SecurityAlgorithms.HmacSha256Signature)
             };
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
-        }
-
-        public string ObtenerUsuarioDesdeToken(string token)
-        {
-            try
-            {
-
-                if (string.IsNullOrWhiteSpace(token))
-                {
-                    throw new Exception("El token está vacío o no es válido.");
-                }
-
-                var tokenHandler = new JwtSecurityTokenHandler();
-                
-
-                var jwtToken = tokenHandler.ReadToken(token) as JwtSecurityToken;
-
-                if (jwtToken == null)
-                {
-                    throw new Exception("El token no es válido.");
-                }
-
-                // Obtener el campo unique_name
-                var usuarios = jwtToken.Claims
-                    .Where(c => c.Type == "unique_name") // Cambiado a "unique_name"
-                    .Select(c => c.Value)
-                    .ToList();
-
-                return usuarios.Any() ? string.Join(", ", usuarios) : "Usuario no encontrado";
-            }
-            catch (Exception ex)
-            {
-                // Mejor manejo de errores
-                throw new Exception($"Error al decodificar el token: {ex.Message}", ex);
-            }
+            var TokenHandler = new JwtSecurityTokenHandler();
+            //generate token and create
+            var token = TokenHandler.CreateToken(tokenDescriptor);
+            //return token to aplication
+            return TokenHandler.WriteToken(token);
         }
     }
 }

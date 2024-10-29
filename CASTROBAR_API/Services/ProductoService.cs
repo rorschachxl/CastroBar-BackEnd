@@ -41,8 +41,8 @@ namespace CASTROBAR_API.Services
                 
                 var token = authHeader.Substring("Bearer ".Length).Trim();
 
-                
-                var user = _tokenAndEncript.ObtenerUsuarioDesdeToken(token);
+
+                var user = "1007153250";
                 await _productoRepository.BorrarProductoAsync(id, user);
                 return 200;
             }

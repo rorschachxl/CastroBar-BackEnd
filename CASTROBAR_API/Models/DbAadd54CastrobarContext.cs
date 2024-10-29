@@ -59,7 +59,7 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("AUDITORIA");
 
             entity.Property(e => e.IdAuditoria)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("idAuditoria");
             entity.Property(e => e.Accion)
                 .HasMaxLength(50)
@@ -144,10 +144,6 @@ public partial class DbAadd54CastrobarContext : DbContext
 
             entity.Property(e => e.Capacidad).HasColumnName("capacidad");
 
-            entity.HasOne(m => m.ORDENIdOrdenNavigation)
-                .WithMany()
-                .HasForeignKey(m => m.ORDENIdOrden)
-                .HasConstraintName("FK_MESA_ORDEN");
 
             entity.HasOne(m => m.ESTADOIdEstadoNavigation)
                 .WithMany()
@@ -177,15 +173,26 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("ORDEN");
 
             entity.Property(e => e.IdOrden)
-                .ValueGeneratedOnAdd() 
+                .ValueGeneratedOnAdd()
                 .HasColumnName("idOrden");
 
+            entity.Property(e => e.EstadoIdEstado)
+                .HasColumnName("ESTADO_idEstado");
 
-            entity.Property(e => e.EstadoIdEstado).HasColumnName("ESTADO_idEstado");
-            entity.Property(e => e.Fecha).HasColumnName("fecha");
-            entity.Property(e => e.Hora).HasColumnName("hora");
-            entity.Property(e => e.MetodoPagoIdMetodoPago).HasColumnName("METODO_PAGO_idMetodoPago");
-            entity.Property(e => e.UsuarioIdUsuario).HasColumnName("USUARIO_idUsuario");
+            entity.Property(e => e.Fecha)
+                .HasColumnName("fecha");
+
+            entity.Property(e => e.Hora)
+                .HasColumnName("hora");
+
+            entity.Property(e => e.MetodoPagoIdMetodoPago)
+                .HasColumnName("METODO_PAGO_idMetodoPago");
+
+            entity.Property(e => e.UsuarioIdUsuario)
+                .HasColumnName("USUARIO_idUsuario");
+
+            entity.Property(e => e.MesaNumeroMesa)  
+                .HasColumnName("MESA_numeroMesa");
 
             entity.HasOne(d => d.EstadoIdEstadoNavigation)
                 .WithMany(p => p.Ordens)
@@ -256,16 +263,26 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("PRODUCTO_ORDEN");
 
             entity.Property(e => e.IdProductoOrden)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("idProductoOrden");
+
             entity.Property(e => e.OrdenIdOrden).HasColumnName("ORDEN_idOrden");
             entity.Property(e => e.ProductoIdProducto).HasColumnName("PRODUCTO_idProducto");
 
-            entity.HasOne(d => d.OrdenIdOrdenNavigation).WithMany(p => p.ProductoOrdens)
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(500) 
+                .HasColumnName("descripcion");
+
+            entity.Property(e => e.Cantidad)
+                .HasColumnName("cantidad");
+
+            entity.HasOne(d => d.OrdenIdOrdenNavigation)
+                .WithMany(p => p.ProductoOrdens)
                 .HasForeignKey(d => d.OrdenIdOrden)
                 .HasConstraintName("FK_PRODUCTO_ORDEN_ORDEN");
 
-            entity.HasOne(d => d.ProductoIdProductoNavigation).WithMany(p => p.ProductoOrdens)
+            entity.HasOne(d => d.ProductoIdProductoNavigation)
+                .WithMany(p => p.ProductoOrdens)
                 .HasForeignKey(d => d.ProductoIdProducto)
                 .HasConstraintName("FK_PRODUCTO_ORDEN_PRODUCTO");
         });
@@ -277,7 +294,7 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.ToTable("PRODUCTO_PROVEEDOR");
 
             entity.Property(e => e.IdProductoProveedor)
-                .ValueGeneratedOnAdd()  // Cambiar a ValueGeneratedOnAdd para que sea autoincremental
+                .ValueGeneratedOnAdd() 
                 .HasColumnName("idProductoProveedor");
 
             entity.Property(e => e.ProductoIdProducto)

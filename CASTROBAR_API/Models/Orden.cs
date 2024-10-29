@@ -17,11 +17,14 @@ public partial class Orden
 
     public int? UsuarioIdUsuario { get; set; }
 
+    public int? MesaNumeroMesa { get; set; }  // Añadir esta propiedad
+
     public virtual Estado? EstadoIdEstadoNavigation { get; set; }
 
     public virtual MetodoPago? MetodoPagoIdMetodoPagoNavigation { get; set; }
 
-    public virtual ICollection<ProductoOrden> ProductoOrdens { get; set; } = new List<ProductoOrden>();
-
     public virtual Usuario? UsuarioIdUsuarioNavigation { get; set; }
+
+    public virtual ICollection<ProductoOrden> ProductoOrdens { get; set; } = new List<ProductoOrden>();
 }
+

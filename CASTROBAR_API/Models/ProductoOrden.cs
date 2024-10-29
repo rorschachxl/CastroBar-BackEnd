@@ -10,6 +10,8 @@ public partial class ProductoOrden
     public int? OrdenIdOrden { get; set; }
 
     public int? ProductoIdProducto { get; set; }
+    public string Descripcion { get; set; } 
+    public int Cantidad { get; set; }
 
     public virtual Orden? OrdenIdOrdenNavigation { get; set; }
 

@@ -23,7 +23,7 @@ namespace CASTROBAR_API.Controllers
             _productoService = productoService;
             _tokenAndEncript = tokenAndEncript;
         }
-        [HttpGet]
+        [HttpGet("ObtenerProductos")]
         public async Task<IActionResult> GetAll()
         {
             var productos = await _productoService.ObtenerProductos();

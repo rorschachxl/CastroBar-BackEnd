@@ -2,7 +2,6 @@
 {
     public class MesaRequestDto
     {
-       
         public int? Capacidad { get; set; }
     }
 }

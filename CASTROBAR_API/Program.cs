@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using QuestPDF.Infrastructure;
 
+QuestPDF.Settings.License = LicenseType.Community;
 var builder = WebApplication.CreateBuilder(args);
 
 // Obtener la clave secreta desde la configuración
@@ -29,6 +31,18 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
     });
+
+// Configuración del CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 
 // Configuración de Swagger para autenticación JWT
 builder.Services.AddSwaggerGen(c =>
@@ -80,9 +94,15 @@ builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddTransient<ISubcategoriaRepository, SubcategoriaRepository>();
 builder.Services.AddTransient<IProductoRecetaRepository, ProductoRecetaRepository>();
 builder.Services.AddTransient<IProductoProveedorRepository, ProductoProveedorRepository>();
+builder.Services.AddTransient<IOrdenRepository, OrdenRepository>();
 builder.Services.AddTransient<IMetodoPagoRepository, MetodoPagoRepository>();
 builder.Services.AddTransient<IMesaRepository, MesaRepository>();
+builder.Services.AddTransient<IProductoOrdenRepository, ProductoOrdenRepository>();
+builder.Services.AddTransient<IEmailUtility, EmailUtility>();
+builder.Services.AddTransient<EmailUtility>();
 builder.Services.AddTransient<ProductoService>();
+builder.Services.AddTransient<ProductoOrdenService>();
+builder.Services.AddTransient<OrdenService>();
 builder.Services.AddTransient<MetodoPagoService>();
 builder.Services.AddTransient<MesaService>();
 builder.Services.AddTransient<ProductoProveedorService>();
@@ -111,6 +131,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Aplicar la política de CORS antes de la autenticación y autorización
+app.UseCors("AllowAllOrigins");
 
 // Middleware de autenticación y autorización
 app.UseAuthentication();
