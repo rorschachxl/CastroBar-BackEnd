@@ -52,5 +52,14 @@ namespace CASTROBAR_API.Controllers
 
             return NoContent(); 
         }
+        [HttpDelete("EliminarMesa/{numeroMesa}")]
+        public async Task<IActionResult> EliminarMesa(int numeroMesa)
+        {
+            var result = await _mesaService.EliminarMesaAsync(numeroMesa);
+            if (!result)
+                return NotFound("La mesa no fue encontrada");
+
+            return NoContent();
+        }
     }
 }

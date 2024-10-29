@@ -24,6 +24,7 @@ public partial class Orden
     public virtual MetodoPago? MetodoPagoIdMetodoPagoNavigation { get; set; }
 
     public virtual Usuario? UsuarioIdUsuarioNavigation { get; set; }
+    public virtual Mesa? MesaNumeroMesaNavigation { get; set; }
 
     public virtual ICollection<ProductoOrden> ProductoOrdens { get; set; } = new List<ProductoOrden>();
 }

@@ -40,5 +40,10 @@ namespace CASTROBAR_API.Services
             // Llamar al repositorio para editar el proveedor
             await _proveedorRepository.EditarProveedorAsync(idProveedor, proveedorDto);
         }
+        public async Task<bool> EliminarProveedorAsync(int idProveedor)
+        {
+            // Llama al método de eliminación en el repositorio
+            return await _proveedorRepository.EliminarProveedorAsync(idProveedor);
+        }
     }
 }

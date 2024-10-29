@@ -37,26 +37,27 @@ namespace CASTROBAR_API.Utilities
         //Generate token with claims and secret key access
         public string GenerarToken(string CC, string rol)
         {
-            var SecretKey = _config.GetSection("Key").GetSection("secretKey").ToString();
+            var SecretKey = "castrobar2024GeNNierAlejoFlorezMateo";
 #pragma warning disable CS8604 // Possible null reference argument.
             var security = Encoding.ASCII.GetBytes(SecretKey);
 #pragma warning restore CS8604 // Possible null reference argument.
             //generate data of token
-            var tokenDescriptor = new SecurityTokenDescriptor
+            IEnumerable<Claim> claims = new Claim[]
             {
-                Subject = new ClaimsIdentity(new[]{
-                    new Claim(ClaimTypes.Name,CC),
-                    new Claim(ClaimTypes.Role,rol),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                }),
-                Expires = DateTime.UtcNow.AddHours(2),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(security), SecurityAlgorithms.HmacSha256Signature)
+                new Claim(ClaimTypes.Name,CC),
+                new Claim(ClaimTypes.Role,rol),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
-            var TokenHandler = new JwtSecurityTokenHandler();
+            var tokenDescriptor = new JwtSecurityToken(
+                    claims: claims,
+                    notBefore: new DateTimeOffset(DateTime.Now).DateTime,
+                    expires: new DateTimeOffset(DateTime.Now.AddHours(2)).DateTime,
+                    signingCredentials: new SigningCredentials(new SymmetricSecurityKey(security), SecurityAlgorithms.HmacSha256)
+                );
             //generate token and create
-            var token = TokenHandler.CreateToken(tokenDescriptor);
+            var token = new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
             //return token to aplication
-            return TokenHandler.WriteToken(token);
+            return token;
         }
     }
 }

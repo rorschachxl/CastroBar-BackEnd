@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\utilities\\tokenandencript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\tokenandencript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,32 +15,80 @@
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\utilities\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\auditorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\auditorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\utilities\\emailutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\emailutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\utilities\\iemailutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\iemailutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\proveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\proveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\mesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\mesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\imesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\imesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\mesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\mesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\mesarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\mesarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\mesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\mesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\proveedorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\proveedorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\productorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\productorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\preveedorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\preveedorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,6 +97,62 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\subcategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\subcategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\utilities\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\utilities\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\estadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\estadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\productoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\productoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\ordenproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\ordenproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\productoordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\productoordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\ordenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\ordenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\ordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\ordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\recoverypassdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,18 +167,6 @@
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\dbaadd54castrobarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\productoordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\productoordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\productoordenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\productoordenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,68 +179,24 @@
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\iproductoordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\ordenproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\ordenproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\productoordenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\productoordenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\productoorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\productoorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\productoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\productoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\ordencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\ordencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\ordenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\ordenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\mesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\mesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\mesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\mesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\models\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\models\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\ordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\ordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\iordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\iordenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\dtos\\mesarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\dtos\\mesarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\controllers\\mesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\controllers\\mesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\iproductorecetarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -161,10 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\services\\productoproveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\services\\productoproveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|c:\\users\\alejo\\source\\repos\\rorschachxl\\castrobar-backend\\castrobar_api\\repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB29246-F603-445D-AE27-5BFE37FA38AA}|CASTROBAR_API\\CASTROBAR_API.csproj|solutionrelative:castrobar_api\\repositories\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,375 +214,431 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProductoRepository.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:42:47.454Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:41:36.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEmailUtility.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\IEmailUtility.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\IEmailUtility.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\IEmailUtility.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Utilities\\IEmailUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:38:27.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmailUtility.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\EmailUtility.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\EmailUtility.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\EmailUtility.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Utilities\\EmailUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:35:38.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JsonFile.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Utilities\\JsonFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:33:37.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Program.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:10:20.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
-              "RelativeToolTip": "CASTROBAR_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-26T22:49:46.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenAndEncript.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:33:47.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAzwNcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:45:36.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoService.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProductoService.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoService.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Services\\ProductoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:43:16.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuariosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwFQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:32:07.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\UsuarioDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\UsuarioDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\UsuarioDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\UsuarioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:31:18.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\UpdateUserDto.cs",
               "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\UpdateUserDto.cs",
               "RelativeToolTip": "CASTROBAR_API\\Dtos\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T00:30:41.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RecoveryPassDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\Source\\Repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:29:42.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmailDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\EmailDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\EmailDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\EmailDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\EmailDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:27:03.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrdenProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:18:14.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ProductoOrdenRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T20:02:02.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Orden.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Orden.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Orden.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Orden.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\Orden.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:38:13.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ProductoOrdenService.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoOrdenService.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProductoOrdenService.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoOrdenService.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Services\\ProductoOrdenService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Title": "UsuariosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\UsuariosRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA6wCkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:14:12.443Z",
+              "WhenOpened": "2024-10-29T00:32:07.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAUwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:20:35.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstadoController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\EstadoController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\EstadoController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\EstadoController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\EstadoController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:12:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Program.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T23:10:20.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenAndEncript.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Utilities\\TokenAndEncript.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:33:47.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\appsettings.json",
+              "RelativeToolTip": "CASTROBAR_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T22:49:46.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MesaController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\MesaController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\MesaController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\MesaController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\MesaController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:18:00.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProveedorRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProveedorRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\IProveedorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:02:14.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Proveedor.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Models\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:19:06.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Auditorium.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Auditorium.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Auditorium.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Auditorium.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Models\\Auditorium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:30:00.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProveedorService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProveedorService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProveedorService.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProveedorService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\ProveedorService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:05:02.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProveedorController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProveedorController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\ProveedorController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProveedorController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\ProveedorController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:05:44.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DbAadd54CastrobarContext.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAowEUAAAAhAAAAAAAAAA==",
+              "Title": "ProveedorRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProveedorRequestDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProveedorRequestDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProveedorRequestDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProveedorRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:37:30.06Z",
+              "WhenOpened": "2024-10-29T06:47:50.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T20:28:35.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductoOrdenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAUwGkAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:09:58.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IProductoOrdenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:10:28.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductoOrdenResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T20:16:00.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T03:48:09.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductoOrden.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\ProductoOrden.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\ProductoOrden.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\ProductoOrden.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Models\\ProductoOrden.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:05:44.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductoResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:08:21.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 13,
               "Title": "MesaRepository.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\MesaRepository.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\MesaRepository.cs",
               "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\MesaRepository.cs",
               "RelativeToolTip": "CASTROBAR_API\\Repositories\\MesaRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwEAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T02:32:21.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MesaService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\MesaService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\MesaService.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\MesaService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\MesaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T22:38:44.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMesaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IMesaRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IMesaRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IMesaRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\IMesaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:48:08.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAD4vzAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:45:36.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PreveedorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\PreveedorResponseDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\PreveedorResponseDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\PreveedorResponseDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\PreveedorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:47:12.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MesaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:37:57.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MesaRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:37:51.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\UsuarioDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:31:18.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\ProductoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:43:16.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:48:09.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:42:47.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductoRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoRequestDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoRequestDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoRequestDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:05:16.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAewKUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:41:36.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductoOrdenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProductoOrdenRepository.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwLUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:09:58.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EstadoDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\EstadoDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\EstadoDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\EstadoDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\EstadoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:13:02.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JsonFile.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Utilities\\JsonFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:48:24.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SubcategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\SubcategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:07:04.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:03:55.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "OrdenService.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\OrdenService.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\OrdenService.cs",
@@ -555,46 +651,168 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Orden.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Orden.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Orden.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Orden.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Models\\Orden.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:38:13.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DbAadd54CastrobarContext.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Models\\DbAadd54CastrobarContext.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAQwNsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:37:30.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "OrdenProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Controllers\\OrdenProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:18:14.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductoResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:08:21.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "OrdenRepository.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\OrdenRepository.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\OrdenRepository.cs",
               "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\OrdenRepository.cs",
               "RelativeToolTip": "CASTROBAR_API\\Repositories\\OrdenRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T01:50:48.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MesaResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\MesaResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "RecoveryPassDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\RecoveryPassDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:37:57.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T00:29:42.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MesaRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Dtos\\MesaRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "EmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\EmailDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\EmailDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\EmailDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\EmailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:37:51.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T00:27:03.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
+              "Title": "ProductoOrdenRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoOrdenRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T20:02:02.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductoOrdenService.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoOrdenService.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProductoOrdenService.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoOrdenService.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Services\\ProductoOrdenService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:14:12.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T20:28:35.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IProductoOrdenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Repositories\\IProductoOrdenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:10:28.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductoOrdenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Dtos\\ProductoOrdenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T20:16:00.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductoOrden.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\ProductoOrden.cs",
+              "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\ProductoOrden.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\ProductoOrden.cs",
+              "RelativeToolTip": "CASTROBAR_API\\Models\\ProductoOrden.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:05:44.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "Mesa.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Models\\Mesa.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Models\\Mesa.cs",
@@ -602,12 +820,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Models\\Mesa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T22:38:51.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T22:38:51.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 46,
               "Title": "OrdenController.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\OrdenController.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\OrdenController.cs",
@@ -615,12 +832,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Controllers\\OrdenController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:54:47.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T01:54:47.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "IOrdenRepository.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IOrdenRepository.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IOrdenRepository.cs",
@@ -628,38 +844,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Repositories\\IOrdenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:51:02.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T01:51:02.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "MesaService.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\MesaService.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\MesaService.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\MesaService.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Services\\MesaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T22:38:44.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "MesaController.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\MesaController.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\MesaController.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\MesaController.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Controllers\\MesaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T16:18:00.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "IProductoRecetaRepository.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\IProductoRecetaRepository.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\IProductoRecetaRepository.cs",
@@ -667,12 +856,11 @@
               "RelativeToolTip": "CASTROBAR_API\\Repositories\\IProductoRecetaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:56:26.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T15:56:26.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "ProductoProveedorService.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Services\\ProductoProveedorService.cs",
               "RelativeDocumentMoniker": "CASTROBAR_API\\Services\\ProductoProveedorService.cs",
@@ -680,34 +868,7 @@
               "RelativeToolTip": "CASTROBAR_API\\Services\\ProductoProveedorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:21:02.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ProveedorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Repositories\\ProveedorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:20:35.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ProveedorController.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProveedorController.cs",
-              "RelativeDocumentMoniker": "CASTROBAR_API\\Controllers\\ProveedorController.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\rorschachxl\\CastroBar-BackEnd\\CASTROBAR_API\\Controllers\\ProveedorController.cs",
-              "RelativeToolTip": "CASTROBAR_API\\Controllers\\ProveedorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:05:44.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T14:21:02.179Z"
             }
           ]
         }

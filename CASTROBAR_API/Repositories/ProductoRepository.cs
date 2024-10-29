@@ -53,21 +53,7 @@ namespace CASTROBAR_API.Repositories
                 producto.Cantidad = productoRequestDto.cantidad ?? producto.Cantidad;
 
                 
-                if (productoRequestDto.RecetaIdReceta.HasValue)
-                {
-                    if (await _context.Receta.FindAsync(productoRequestDto.RecetaIdReceta.Value) != null)
-                    {
-                        producto.RecetaIdReceta = productoRequestDto.RecetaIdReceta.Value;
-                    }
-                    else
-                    {
-                        return 500;
-                    }
-                }
-                else
-                {
-                    producto.RecetaIdReceta = 1; 
-                }
+                
                 if (productoRequestDto.EstadoIdEstado != 0) 
                     producto.EstadoIdEstado = productoRequestDto.EstadoIdEstado;
 

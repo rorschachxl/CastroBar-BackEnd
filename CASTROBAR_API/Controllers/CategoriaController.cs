@@ -18,7 +18,6 @@ namespace CASTROBAR_API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public async Task<IActionResult> ObtenerCategoria()
         {
             var estados = await _categoriaService.ObtenerCategorias();

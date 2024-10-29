@@ -8,5 +8,6 @@
         public string Message { get; set; } = null!;
         public string User { get; set; }
         public int Status { get; set; }
+        public int Rol {  get; set; }
     }
 }

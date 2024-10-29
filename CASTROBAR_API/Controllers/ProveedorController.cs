@@ -46,5 +46,15 @@ namespace CASTROBAR_API.Controllers
                 return BadRequest(new { error = ex.Message });
             }
         }
+        [HttpDelete("BorrarProveedor/{idProveedor}")]
+        public async Task<IActionResult> EliminarProveedor(int idProveedor)
+        {
+            var eliminado = await _proveedorService.EliminarProveedorAsync(idProveedor);
+            if (!eliminado)
+            {
+                return NotFound("Proveedor no encontrado");
+            }
+            return NoContent();
+        }
     }
 }

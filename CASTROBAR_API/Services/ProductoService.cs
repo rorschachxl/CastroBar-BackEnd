@@ -33,23 +33,13 @@ namespace CASTROBAR_API.Services
             return respuesta;
         }
 
-        public async Task<int> EliminarProducto(int id, string authHeader)
+        public async Task<int> EliminarProducto(int id)
         {
             
-            if (!string.IsNullOrEmpty(authHeader) && authHeader.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
-            {
-                
-                var token = authHeader.Substring("Bearer ".Length).Trim();
-
-
                 var user = "1007153250";
                 await _productoRepository.BorrarProductoAsync(id, user);
                 return 200;
-            }
-            else
-            {
-                throw new Exception("Encabezado de autorización no válido o faltante.");
-            }
+            
         }
     }
 }

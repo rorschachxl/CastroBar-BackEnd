@@ -158,6 +158,22 @@
   },
   {
     "ContainingType": "CASTROBAR_API.Controllers.MesaController",
+    "Method": "EliminarMesa",
+    "RelativePath": "api/Mesa/EliminarMesa/{numeroMesa}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMesa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MesaController",
     "Method": "ObtenerMesas",
     "RelativePath": "api/Mesa/ObtenerMesas",
     "HttpMethod": "GET",
@@ -251,22 +267,6 @@
   },
   {
     "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
-    "Method": "CreateProducto",
-    "RelativePath": "api/Producto",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "productoRequestDto",
-        "Type": "CASTROBAR_API.Dtos.ProductoRequestDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
     "Method": "UpdateProducto",
     "RelativePath": "api/Producto/{id}",
     "HttpMethod": "PUT",
@@ -297,6 +297,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
+    "Method": "CreateProducto",
+    "RelativePath": "api/Producto/AgregarProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoRequestDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoRequestDto",
         "IsRequired": true
       }
     ],
@@ -509,6 +525,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CASTROBAR_API.Controllers.ProveedorController",
+    "Method": "EliminarProveedor",
+    "RelativePath": "api/Proveedor/BorrarProveedor/{idProveedor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
     "Method": "CrearReceta",
     "RelativePath": "api/Receta/AgregarReceta",
@@ -660,7 +692,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -686,7 +718,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

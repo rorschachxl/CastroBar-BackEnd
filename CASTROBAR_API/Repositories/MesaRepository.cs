@@ -62,5 +62,18 @@ namespace CASTROBAR_API.Repositories
             await _context.SaveChangesAsync();
             return true; 
         }
+        public async Task<bool> EliminarMesaAsync(int numeroMesa)
+        {
+            var mesa = await _context.Mesas.FindAsync(numeroMesa);
+            if (mesa == null)
+            {
+                return false;
+            }
+
+            _context.Mesas.Remove(mesa);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
     }
 }

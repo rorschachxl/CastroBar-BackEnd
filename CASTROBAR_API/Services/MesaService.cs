@@ -24,5 +24,10 @@ namespace CASTROBAR_API.Services
         {
             return await _mesaRepositorio.EditarMesaAsync(numeroMesa, mesaDto);
         }
+        public async Task<bool> EliminarMesaAsync(int numeroMesa)
+        {
+            // Llama al repositorio para eliminar la mesa
+            return await _mesaRepositorio.EliminarMesaAsync(numeroMesa);
+        }
     }
 }

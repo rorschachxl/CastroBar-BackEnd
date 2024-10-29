@@ -7,5 +7,6 @@ namespace CASTROBAR_API.Repositories
         Task<List<MesaResponseDto>> ObtenerTodasLasMesasAsync();
         Task<int> AgregarMesa(MesaRequestDto mesaDto);
         Task<bool> EditarMesaAsync(int numeroMesa, MesaRequestDto mesaDto);
+        Task<bool> EliminarMesaAsync(int numeroMesa);
     }
 }

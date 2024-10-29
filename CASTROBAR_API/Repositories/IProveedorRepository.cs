@@ -7,5 +7,6 @@ namespace CASTROBAR_API.Repositories
         Task<int> AgregarProveedorAsync(ProveedorRequestDto proveedorRequest);
         Task<List<PreveedorResponseDto>> ObtenerTodosLosProveedoresAsync();
         Task EditarProveedorAsync(int idProveedor, ProveedorRequestDto proveedorDto);
+        Task<bool> EliminarProveedorAsync(int idProveedor);
     }
 }

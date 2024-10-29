@@ -114,7 +114,7 @@ namespace CASTROBAR_API.Repositories
                             column.Item().Text($"Número de Factura: {ordenId}");
                             column.Item().Text($"Fecha: {DateTime.Now:dd/MM/yyyy}");
                             column.Item().Text($"Número de Mesa: {orden.MesaNumeroMesa}");
-                            column.Item().Text($"Atendido por: ");
+                            column.Item().Text("Atendido por:");
 
                             column.Item().LineHorizontal(1);
 
@@ -163,7 +163,7 @@ namespace CASTROBAR_API.Repositories
                             column.Item().LineHorizontal(1);
 
                             // Método de pago y mensaje final
-                            column.Item().Text($"Método de Pago: {orden.MetodoPagoIdMetodoPago}"); // Asume que hay un campo MetodoPago
+                            column.Item().Text($"Método de Pago: {orden.MetodoPagoIdMetodoPago}");
                             column.Item().AlignCenter().Text("Gracias por su visita. ¡Esperamos verle pronto!").FontSize(12).Italic();
                         });
                     });
@@ -173,6 +173,16 @@ namespace CASTROBAR_API.Repositories
             using (var memoryStream = new MemoryStream())
             {
                 document.GeneratePdf(memoryStream);
+                var mesa = await _context.Mesas.FirstOrDefaultAsync(m => m.NumeroMesa == orden.MesaNumeroMesa);
+                if (mesa != null)
+                {
+                    mesa.ESTADOIdEstado = 21;
+                }
+                // Cambiar el estado a 32 y la mesa a null
+                orden.EstadoIdEstado = 32;
+                orden.MesaNumeroMesa = null;
+                await _context.SaveChangesAsync();
+
                 return memoryStream.ToArray();
             }
         }

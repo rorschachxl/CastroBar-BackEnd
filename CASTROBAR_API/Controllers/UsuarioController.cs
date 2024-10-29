@@ -56,7 +56,7 @@ namespace CASTROBAR_API.Controllers
 
         [HttpGet]
         [Route("/GetUserById/{id}")]
-        public async Task<IActionResult> GetUserById(string id)
+        public async Task<IActionResult> GetUserById(int id)
         {
             try
             {
@@ -163,7 +163,7 @@ namespace CASTROBAR_API.Controllers
         // DELETE: api/Usuario/5
         [HttpDelete]
         [Route("/DeleteUser/{id}")]
-        public async Task<IActionResult> DeleteUsuarioModel(string id)
+        public async Task<IActionResult> DeleteUsuarioModel(int id)
         {
             if (await _service.deleteUser(id))
             {
@@ -188,7 +188,8 @@ namespace CASTROBAR_API.Controllers
                     Id = Convert.ToString(user.IdUsuario),
                     Token = token,
                     Message = "Bienvenido al sistema",
-                    User = user.Nombre
+                    User = user.Nombre,
+                    Rol = user.RolIdRol
                 };
                 var result = JsonSerializer.Serialize(userToken);
                 return StatusCode(StatusCodes.Status200OK, result);

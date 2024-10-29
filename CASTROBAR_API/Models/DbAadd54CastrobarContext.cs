@@ -191,23 +191,32 @@ public partial class DbAadd54CastrobarContext : DbContext
             entity.Property(e => e.UsuarioIdUsuario)
                 .HasColumnName("USUARIO_idUsuario");
 
-            entity.Property(e => e.MesaNumeroMesa)  
+            entity.Property(e => e.MesaNumeroMesa)
                 .HasColumnName("MESA_numeroMesa");
 
+            // Configuración de la relación con la entidad Estado
             entity.HasOne(d => d.EstadoIdEstadoNavigation)
                 .WithMany(p => p.Ordens)
                 .HasForeignKey(d => d.EstadoIdEstado)
                 .HasConstraintName("FK_ORDEN_ESTADO");
 
+            // Configuración de la relación con la entidad Método de Pago
             entity.HasOne(d => d.MetodoPagoIdMetodoPagoNavigation)
                 .WithMany(p => p.Ordens)
                 .HasForeignKey(d => d.MetodoPagoIdMetodoPago)
                 .HasConstraintName("FK_ORDEN_METODO_PAGO");
 
+            // Configuración de la relación con la entidad Usuario
             entity.HasOne(d => d.UsuarioIdUsuarioNavigation)
                 .WithMany(p => p.Ordens)
                 .HasForeignKey(d => d.UsuarioIdUsuario)
                 .HasConstraintName("FK_ORDEN_USUARIO");
+
+            // Configuración de la relación con la entidad Mesa
+            entity.HasOne(d => d.MesaNumeroMesaNavigation)
+                .WithMany() // Si no tienes una colección de `Orden` en `Mesa`, deja vacío
+                .HasForeignKey(d => d.MesaNumeroMesa)
+                .HasConstraintName("FK_ORDEN_MESA");
         });
 
         modelBuilder.Entity<Producto>(entity =>

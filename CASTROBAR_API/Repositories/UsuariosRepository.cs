@@ -38,23 +38,36 @@ namespace CASTROBAR_API.Repositories
         }
         public async Task UpdateUser(Usuario usuario, UpdateUserDto user)
         {
-            usuario.Nombre = user.Nombre;
-            usuario.Apellido = user.Apellido;
-            usuario.Contraseña = user.Contraseña;
-            usuario.Telefono = user.Telefono;
-            usuario.Correo = user.Correo;
-            usuario.RolIdRol = user.Rol;
+            if (!string.IsNullOrEmpty(user.Nombre))
+                usuario.Nombre = user.Nombre;
+
+            if (!string.IsNullOrEmpty(user.Apellido))
+                usuario.Apellido = user.Apellido;
+
+            if (!string.IsNullOrEmpty(user.Contraseña))
+                usuario.Contraseña = user.Contraseña;
+
+            if (!string.IsNullOrEmpty(user.Telefono))
+                usuario.Telefono = user.Telefono;
+
+            if (!string.IsNullOrEmpty(user.Correo))
+                usuario.Correo = user.Correo;
+
+            if (user.Rol != 0) // Verificamos si Rol no es 0 para evitar asignaciones no deseadas
+                usuario.RolIdRol = user.Rol;
+
             _context.Usuarios.Update(usuario);
             await _context.SaveChangesAsync();
         }
+
         public async Task<List<Usuario>> GetAllUsers()
         {
             var users = await _context.Usuarios.ToListAsync();
             return users;
         }
-        public async Task<Usuario> GetUserById(string id)
+        public async Task<Usuario> GetUserById(int id)
         {
-            var user = await _context.Usuarios.Where(s => s.NumeroDocumento == id).FirstOrDefaultAsync();
+            var user = await _context.Usuarios.Where(s => s.IdUsuario == id).FirstOrDefaultAsync();
             return user;
         }
         public async Task<bool> DeleteUser(Usuario user)

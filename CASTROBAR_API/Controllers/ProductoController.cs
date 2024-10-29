@@ -37,7 +37,7 @@ namespace CASTROBAR_API.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("AgregarProducto")]
         public async Task<ActionResult> CreateProducto(ProductoRequestDto productoRequestDto)
         {
             int id= await _productoService.CrearProducto(productoRequestDto);
@@ -66,16 +66,14 @@ namespace CASTROBAR_API.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize]
         public async Task<IActionResult> DeleteProducto(int id)
         {
             try
             {
-                // Obtiene el token del encabezado sin el prefijo "Bearer"
-                var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", string.Empty);
+               
 
                 // Llama al servicio para eliminar el producto
-                int resultado = await _productoService.EliminarProducto(id, token);
+                int resultado = await _productoService.EliminarProducto(id);
 
                 // Si la eliminación es exitosa
                 if (resultado == 200)

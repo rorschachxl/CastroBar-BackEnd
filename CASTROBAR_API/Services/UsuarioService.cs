@@ -117,12 +117,12 @@ namespace CASTROBAR_API.Services
             var users = await _repo.GetAllUsers();
             return users;
         }
-        public async Task<Usuario> GetUserByID(string id)
+        public async Task<Usuario> GetUserByID(int id)
         {
             var user = await _repo.GetUserById(id);
             return user;
         }
-        public async Task<bool> deleteUser(string id)
+        public async Task<bool> deleteUser(int id)
         {
             var userDelete = await _repo.GetUserById(id);
             if (id == null || userDelete == null) //verify id or user not null
@@ -163,10 +163,10 @@ namespace CASTROBAR_API.Services
             await _repo.UpdateUserPass(userA);
             return 1;
         }
-        public async Task<Usuario> GetUserById(int? id)
+        public async Task<Usuario> GetUserById(int id)
         {
-            var Id = Convert.ToString(id);
-            return await _repo.GetUserById(Id);
+            
+            return await _repo.GetUserById(id);
         }
     }
 }
