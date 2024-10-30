@@ -21,8 +21,7 @@ namespace CASTROBAR_API.Controllers
         }
 
         
-        [HttpGet]
-        [Authorize]
+        [HttpGet("ObtenerEstados")]
         public async Task<IActionResult> ObtenerEstados()
         {
             var estados = await _estadoService.ObtenerEstados();

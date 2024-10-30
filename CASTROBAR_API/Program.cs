@@ -109,7 +109,7 @@ builder.Services.AddCors(options =>
 // Configuración de Swagger para autenticación JWT
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CastroBar API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CastroBar API", Version = "v1", Description = "Esta es la API de CastroBar, esta API esta enfocada en ser una herramienta útil para el manejo de mesas en restaurantes, priorizando el servicio rapido al usuario, también hay una función que permite encasillar a las personas en Mesas de manera ordenada. Tambien hay una funcionalidad que permite hacer un seguimiento de la cuenta , asi como también hay funciones para generar los pagos." , });
 
     // Añadir definición de seguridad JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

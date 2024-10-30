@@ -37,13 +37,14 @@ namespace CASTROBAR_API.Repositories
         public async Task<List<PreveedorResponseDto>> ObtenerTodosLosProveedoresAsync()
         {
             return await _context.Proveedors
+                .Where(p => p.EstadoIdEstado != 32)  // Filtrar por estado diferente de 42
                 .Select(p => new PreveedorResponseDto
                 {
                     IdProveedor = p.IdProveedor,
-                    NumeroDocumento = p.NumeroDocumento,
-                    Direccion = p.Direccion,
-                    Telefono = p.Telefono,
-                    Correo = p.Correo
+                    NumeroDocumento = p.NumeroDocumento ?? "N/A",  // Manejo de NULL
+                    Direccion = p.Direccion ?? "N/A",              // Manejo de NULL
+                    Telefono = p.Telefono ?? "N/A",                // Manejo de NULL
+                    Correo = p.Correo ?? "N/A"                     // Manejo de NULL
                 })
                 .ToListAsync();
         }

@@ -48,16 +48,6 @@
   },
   {
     "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
-    "Method": "ObtenerEstados",
-    "RelativePath": "api/Estado",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
     "Method": "CrearEstado",
     "RelativePath": "api/Estado",
     "HttpMethod": "POST",
@@ -107,6 +97,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "ObtenerEstados",
+    "RelativePath": "api/Estado/ObtenerEstados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
