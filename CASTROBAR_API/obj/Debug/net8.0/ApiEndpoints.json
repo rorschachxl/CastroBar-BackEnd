@@ -1,0 +1,785 @@
+[
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.CategoriaController",
+    "Method": "ObtenerCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.CategoriaController",
+    "Method": "CrearCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaRequestDto",
+        "Type": "CASTROBAR_API.Dtos.CategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.CategoriaController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoriaRequestDto",
+        "Type": "CASTROBAR_API.Dtos.CategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "CrearEstado",
+    "RelativePath": "api/Estado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoDto",
+        "Type": "CASTROBAR_API.Dtos.EstadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Estado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estadoDto",
+        "Type": "CASTROBAR_API.Dtos.EstadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "BorrarEstado",
+    "RelativePath": "api/Estado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.EstadoController",
+    "Method": "ObtenerEstados",
+    "RelativePath": "api/Estado/ObtenerEstados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MesaController",
+    "Method": "AgregarMesa",
+    "RelativePath": "api/Mesa/AgregarMesa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mesaDto",
+        "Type": "CASTROBAR_API.Dtos.MesaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MesaController",
+    "Method": "EditarMesa",
+    "RelativePath": "api/Mesa/EditarMesa/{numeroMesa}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMesa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mesaDto",
+        "Type": "CASTROBAR_API.Dtos.MesaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MesaController",
+    "Method": "EliminarMesa",
+    "RelativePath": "api/Mesa/EliminarMesa/{numeroMesa}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMesa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MesaController",
+    "Method": "ObtenerMesas",
+    "RelativePath": "api/Mesa/ObtenerMesas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CASTROBAR_API.Dtos.MesaResponseDto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MetodoPagoController",
+    "Method": "AgregarMetodoPago",
+    "RelativePath": "api/MetodoPago/AgregarMetodoPago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodoPagoDto",
+        "Type": "CASTROBAR_API.Dtos.MetodoPagoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MetodoPagoController",
+    "Method": "EditarMetodoPago",
+    "RelativePath": "api/MetodoPago/EditarMetodoPago/{idMetodoPago}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMetodoPago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "metodoPagoRequest",
+        "Type": "CASTROBAR_API.Dtos.MetodoPagoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.MetodoPagoController",
+    "Method": "ObtenerMetodosPago",
+    "RelativePath": "api/MetodoPago/ObtenerMetodosPago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CASTROBAR_API.Dtos.MetodoPagoResponseDto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.OrdenController",
+    "Method": "CrearOrden",
+    "RelativePath": "api/Orden/CrearOrden",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMesa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
+    "Method": "UpdateProducto",
+    "RelativePath": "api/Producto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productoRequestDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
+    "Method": "DeleteProducto",
+    "RelativePath": "api/Producto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
+    "Method": "CreateProducto",
+    "RelativePath": "api/Producto/AgregarProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoRequestDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Producto/ObtenerProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoOrdenController",
+    "Method": "GenerarFactura",
+    "RelativePath": "api/ProductoOrden/{ordenId}/factura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoOrdenController",
+    "Method": "AgregarProductoOrden",
+    "RelativePath": "api/ProductoOrden/AgregarProductoOrden",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoOrdenRequestDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoOrdenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoOrdenController",
+    "Method": "ObtenerProductosPorOrdenId",
+    "RelativePath": "api/ProductoOrden/ObtenerProductosPorOrdenId/{ordenId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoProveedorController",
+    "Method": "AgregarProductoProveedor",
+    "RelativePath": "api/ProductoProveedor/AgregarProductoAlProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoProveedorDto",
+        "Type": "CASTROBAR_API.Dtos.ProductoProveedorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoProveedorController",
+    "Method": "EliminarProductoProveedor",
+    "RelativePath": "api/ProductoProveedor/EliminarProductoProveedor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoProveedorController",
+    "Method": "ObtenerProductosPorProveedor",
+    "RelativePath": "api/ProductoProveedor/ObtenerProductosDelProveedor/{proveedorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoRecetaController",
+    "Method": "AgregarProductosReceta",
+    "RelativePath": "api/ProductoReceta/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetaDto",
+        "Type": "System.Collections.Generic.List\u00601[[CASTROBAR_API.Dtos.ProductoRecetaRequestDto, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoRecetaController",
+    "Method": "EliminarProductoReceta",
+    "RelativePath": "api/ProductoReceta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProductoRecetaController",
+    "Method": "ObtenerProductosPorReceta",
+    "RelativePath": "api/ProductoReceta/{idReceta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idReceta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProveedorController",
+    "Method": "AgregarProveedor",
+    "RelativePath": "api/Proveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedorRequest",
+        "Type": "CASTROBAR_API.Dtos.ProveedorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProveedorController",
+    "Method": "ObtenerTodosLosProveedores",
+    "RelativePath": "api/Proveedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProveedorController",
+    "Method": "EditarProveedor",
+    "RelativePath": "api/Proveedor/{idProveedor}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proveedorDto",
+        "Type": "CASTROBAR_API.Dtos.ProveedorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.ProveedorController",
+    "Method": "EliminarProveedor",
+    "RelativePath": "api/Proveedor/BorrarProveedor/{idProveedor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
+    "Method": "CrearReceta",
+    "RelativePath": "api/Receta/AgregarReceta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetaDto",
+        "Type": "CASTROBAR_API.Dtos.RecetaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
+    "Method": "EliminarReceta",
+    "RelativePath": "api/Receta/BorrarReceta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.RecetaController",
+    "Method": "ObtenerRecetas",
+    "RelativePath": "api/Receta/ObtenerRecetas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.SubcategoriaController",
+    "Method": "ObtenerSubCategorias",
+    "RelativePath": "api/Subcategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.SubcategoriaController",
+    "Method": "CrearSubategoria",
+    "RelativePath": "api/Subcategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subcategoriaRequestDto",
+        "Type": "CASTROBAR_API.DTOs.SubcategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.SubcategoriaController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Subcategoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "subcategoriaRequestDto",
+        "Type": "CASTROBAR_API.DTOs.SubcategoriaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "RecoveryPass",
+    "RelativePath": "api/Usuario/PasswordRecovery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "CASTROBAR_API.Dtos.RecoveryPassDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "PasswordReset",
+    "RelativePath": "api/Usuario/PasswordReset/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rest",
+        "Type": "CASTROBAR_API.Dtos.RecoveryPassDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Usuario/RegistrarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CASTROBAR_API.Dtos.UsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "DeleteUsuarioModel",
+    "RelativePath": "DeleteUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "GetUserById",
+    "RelativePath": "GetUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "GetiniciarSesi\u00F3n",
+    "RelativePath": "IniciarSesion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "CASTROBAR_API.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.UsuarioController",
+    "Method": "PutUsuarioModel",
+    "RelativePath": "UpdateUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioModel",
+        "Type": "CASTROBAR_API.Dtos.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CASTROBAR_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CASTROBAR_API.WeatherForecast, CASTROBAR_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
